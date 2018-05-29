@@ -1,0 +1,132 @@
+body {
+    background-image: url('./assets/images/red.jpg');
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: gold;
+    height:100%;
+    text-align:center;
+    font-size:18px
+
+}
+
+
+.jumbotron{
+    background-color:transparent !important;
+    color:gold;
+    text-shadow: #444 0 1px 1px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    background-image: url('./assets/images/woz.jpg') !important; 
+    background-repeat: no-repeat !important;
+    background-size: auto 85% !important;
+    background-position: center !important;
+    margin: 0 !important;
+    height: auto !important;
+    max-width: 100% !important;
+  
+}
+
+canvas{
+  color: white;
+  border: $white dashed 2px;
+  padding:15px;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+   margin:5px 0;
+}
+
+h1 {
+    font-size: 2.6em;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+p{
+  font-size: 1.6em;
+}
+#character > div {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-bottom: 2px solid #000;
+  margin-right: 10px;
+  
+}
+#my-word {
+  margin: 0;
+  display: block;
+  padding: 0;
+  display:block;
+
+}
+
+#my-word li {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  display: inline-block;
+  padding: 0 10px;
+  font-size:1.6em;
+}
+
+.active {
+  @include opacity;
+  cursor:default;
+    
+  &:hover{
+      @include fade;
+      @include opacity;
+    }
+}
+
+#guessesRemaining{
+  font-size:1.6em;
+  text-align:center;
+  display:block;
+}
+
+.glinda-gif{
+    width: 380px;
+    height: 380px;
+    height: auto;
+    display: flex;
+   position: absolute;
+   right: 0px;
+  
+    
+}
+.animated-gif {
+    width: 400px;
+    height: 400px;
+    height: auto;
+    display: flex;
+     flex: 2;
+     left: auto;
+    
+
+
+}
+
+
+.flex1 {
+    color:gold;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:  bolder;
+    font-size:30px;
+    margin-top: 30px; 
+
+}
+
+.footer{
+    color: gold;
+}
+
