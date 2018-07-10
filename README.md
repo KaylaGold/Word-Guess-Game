@@ -1,6 +1,8 @@
 # Word-Guess-Game
 Homework #3 Wizard of Oz Word Guess Game
 
+Check it out! https://kaylagold.github.io/Word-Guess-Game/
+
 This app will run in the browser, and feature dynamically updated HTML and CSS powered by JavaScript.
 
 The Wizard of Oz themed Word-Guess-Game is similar to the well known Hangman game.
