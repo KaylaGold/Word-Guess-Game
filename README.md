@@ -1,5 +1,5 @@
 # Word-Guess-Game
-Homework #3 Wizard of Oz Word Guess Game
+Wizard of Oz Word Guess Game
 
 Check it out! https://kaylagold.github.io/Word-Guess-Game/
 
